@@ -1,0 +1,73 @@
+.body_wrapper{
+	width: 750px;
+	height: 1030px;
+	background-color: orange;
+	margin: auto;
+}
+.content_align_wrapper{
+	width:690px;
+	margin:auto;
+
+}
+
+header{
+	width: 690px;
+	height:96px;
+	background-color: green;
+}
+
+.logo_holder{
+	width: 118px;
+	height:56px;
+	background-color: red;
+	float: left;
+}
+
+.link_tabs{
+	width: 138px;
+	height:56px;
+	background-color: purple;
+	float: right;
+}
+
+section{
+	width: 690px;
+	height:746px;
+	background-color: blue;
+
+}
+article{
+	width: 493px;
+	height:746px;
+	background-color: pink;
+	float: left;
+
+}
+aside{
+	width: 197px;
+	height:746px;
+	background-color: beige;
+	float: left;
+}
+
+footer{
+	width: 690px;
+	height:176px;
+	background-color: yellow;
+}
+
+.footer_about_links {
+	width: 690px;
+	height:50px;
+	background-color: blue;
+	}
+.footer_security_links{
+	width: 690px;
+	height:50px;
+	background-color: black;
+} 
+.copyright_links{
+	width: 690px;
+	height:50px;
+	background-color: red;
+}
