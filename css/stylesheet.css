@@ -1,3 +1,11 @@
+a{
+	text-decoration: none;
+}
+
+
+
+
+
 .body_wrapper{
 	width: 750px;
 	height: 1030px;
@@ -50,24 +58,70 @@ aside{
 	float: left;
 }
 
+
+
+/*start of footer css*/
+
 footer{
 	width: 690px;
 	height:176px;
-	background-color: yellow;
+	
 }
 
 .footer_about_links {
 	width: 690px;
 	height:50px;
-	background-color: blue;
-	}
+	
+}
+.footer_about_links ul{
+	text-align: center;
+}
+.footer_about_links li{
+	display: inline-block;
+	margin: 15px;
+}
+.footer_about_links li a{
+	font: 200 11px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #666;
+}
+.footer_about_links li a:hover{
+	text-decoration: underline;
+}	
+
 .footer_security_links{
 	width: 690px;
-	height:50px;
-	background-color: black;
+	
 } 
+.footer_security_links ul{
+	text-align: center;
+}
+.footer_security_links li{
+	display: inline-block;
+
+}
+.footer_security_links li:first-child{
+	padding-right: 40px;
+}
+.footer_security_links li:nth-child(2){
+	padding-left: 40px;
+}
+
 .copyright_links{
 	width: 690px;
 	height:50px;
-	background-color: red;
+	
+}
+.copyright_links ul{
+	text-align: center;
+}
+.copyright_links ul > :first-child{
+	border-right: solid 1px #666;
+}
+.copyright_links li{
+	display: inline-block;
+	font: 200 11px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #666;
+	margin-top: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
