@@ -52,6 +52,7 @@ header{
 .link_tabs li:first-child{
 	border-right: solid 1px #666;
 	padding-right: 10px;
+	font-weight: bold;
 }
 /*start of central styles*/
 section{
@@ -72,12 +73,19 @@ section{
 	font-size: 28px;
 	font-weight: bold;
 	color: #333;
+	margin-bottom: 30px;
 }
 
 .form_holder{
 	width: 60%;
 	height: 95%;
 	float: left;
+}
+.form_holder label, .form_holder li{
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+	font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .tips_holder{
 	width: 35%;
