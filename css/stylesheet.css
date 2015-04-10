@@ -12,7 +12,6 @@ a{
 .body_wrapper{
 	width: 750px;
 	height: 1030px;
-	background-color: orange;
 	margin: auto;
 }
 .content_align_wrapper{
@@ -21,6 +20,7 @@ a{
 
 }
 
+/*start of header styles*/
 header{
 	width: 690px;
 	height:56px;
@@ -53,28 +53,55 @@ header{
 	border-right: solid 1px #666;
 	padding-right: 10px;
 }
-
+/*start of central styles*/
 section{
 	width: 690px;
 	height:746px;
-	background-color: blue;
-
+	box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+	padding-top: 50px;
 }
-article{
-	width: 493px;
-	height:746px;
-	background-color: pink;
+.content_container{
+	margin: auto;
+	width: 600px;
+	height: 656px;
+	
+}
+
+.content_container h1{
+	font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #333;
+}
+
+.form_holder{
+	width: 60%;
+	height: 95%;
 	float: left;
-
 }
-aside{
-	width: 197px;
-	height:746px;
-	background-color: beige;
+.tips_holder{
+	width: 35%;
+	height: 95%;
 	float: left;
+	border-left: 1px solid #D3D3D3;
 }
 
+.aside_content{
+	background-color: #F5F5F5;
+	padding: 20px;
+	margin-left: 50px;
+	width: 150px;
+}
 
+.aside_content ul{
+	list-style: inside;
+	font: 200 11px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #666;
+}
+.aside_content h2{
+	font: 500 20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #666;
+}
 
 /*start of footer styles*/
 
